@@ -19,4 +19,8 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
-        return length * width;}}
+        return length * width;}
+ public String toString(){
+   return "Rectangle";
+}
+}

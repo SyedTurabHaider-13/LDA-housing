@@ -12,4 +12,8 @@ public class Square extends Shape {
     }
     @Override
     public double calculateArea() {
-        return side * side;}}
+        return side * side;}
+ public String toString(){
+   return "Square";
+}
+}
